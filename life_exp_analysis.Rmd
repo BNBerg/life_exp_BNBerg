@@ -21,6 +21,9 @@ library(gapminder)
   Here, I re-examine the analysis of Oeppen and Vaupel (2002).
  
 ```{r}
+
+# group data by year, then filter for maximum life expectancy
+
 data("gapminder_unfiltered")
 
 sumdat <- gapminder_unfiltered %>% 
